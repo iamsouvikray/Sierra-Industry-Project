@@ -1,0 +1,426 @@
+html,body{
+    scroll-behavior: smooth;
+}
+/* navbar start */
+
+.nav-btn{
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    color: #ffffff;
+    background-color: red;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1em;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.nav-btn:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    color: #ffffff;
+    background-color: black;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1em;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.nav-link-active{
+    color: white;
+    text-decoration: none;
+}
+.nav-link-active:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-link-unactive{
+    color: rgba(255, 255, 255, 0.405);
+    text-decoration: none;
+}
+.nav-link-unactive:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bg-nav-color{
+    background-color: rgba(255, 255, 255, 0.46);
+    backdrop-filter: blur(10px);
+
+}
+
+/* navbar end */
+/* hero start */
+.bg{
+    background-image: url(/Assests/HOME/factory.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-in{
+    background-color: rgba(0, 0, 0, 0.51)
+}
+.h-100dvh{
+    height: 100dvh;
+}
+.navbar-toggler-icon{
+    color: red;
+}
+.bg-color-toggle{
+    color: red;
+    border-radius: 2px;
+    border: 2px solid red;
+    background-color: rgba(245, 245, 245, 0.567);
+}
+@media (min-width:992px){
+    .bg-nav-color{
+    background-color: rgba(255, 255, 255,0);
+}
+}
+.heading{
+font-size: 70px;
+color: #ffffff;
+}
+.margin-icon{
+    margin-top: 8px;
+}
+/* second page start */
+.h-second{
+    height: 100dvh;
+}
+.size-p{
+    font-size: 100%;
+}
+.anchor-1{
+    color: white;
+    text-decoration: none;
+}
+/* second section end */
+/* third section start */
+.bg-3{
+    background-image: url(/Assests/HOME/working-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.h-three-150dvh{
+    height: 150dvh;
+}
+.bg-3-in{
+    background-color: rgba(2, 2, 71, 0.508);
+}
+.elementor-divider{
+height: 50;
+width: 100;
+background-color: white;
+}
+.first{
+    text-align: start;
+}
+.divider{
+    height: 0.8px;
+    width: 580px;
+    background-color: #ffffff;
+}
+.gp-three{
+    gap: 25px;
+}
+/* third section end */
+/* fourth section start */
+.h-four-100dvh{
+    min-height: 100vh;
+  padding-top: 80px; /* to create breathing room under navbar */
+  padding-bottom: 80px; 
+}
+/* fourth section end */
+/* fifth section statr */
+.h-fifth-100dvh{
+  height: 100dvh;
+  padding-top: 30px;
+}
+.bg-fifth{
+    background-color: rgba(3, 3, 39, 0.971);
+    color: white;
+    
+}
+.column-hover:hover{
+cursor: pointer;
+color: red;
+}
+
+.gap-one{
+    gap:450px;
+}
+.margin{
+    margin-top: 90px;
+}
+@media (max-width:768px){
+.heading{
+font-size: 35px;
+color: #ffffff;
+}
+}
+@media (min-width:768px){
+.heading{
+font-size: 50px;
+color: #ffffff;
+}
+}
+@media (min-width:992px){
+.heading{
+font-size: 70px;
+color: #ffffff;
+}
+}
+@media (max-width:768px){
+.heading-1{
+font-size: 10px;
+color: #ffffff;
+}
+}
+@media (min-width:768px){
+.heading-1{
+font-size:16px ;
+color: #ffffff;
+}
+}
+@media (max-width:768px){
+.footer-size{
+font-size: 9px;
+color: #ffffff;
+}
+}
+@media (min-width:768px){
+.footer-size{
+font-size: 13px;
+color: #ffffff;
+}
+}
+/* Second Page "About" */
+/* Navbar start */
+@media (max-width:991px){
+.bg-nav-color-secondpage{
+    background-color: rgba(255, 255, 255, 0.46);
+    backdrop-filter: blur(10px);
+
+}
+}
+.bg-secondpage{
+    background-image: url(/Assests/HOME/glass-building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-in-secondpage{
+    background-color: rgba(8, 2, 19, 0.566)
+}
+.h-75dvh-secondpage{
+    height: 75dvh;
+}
+.heading-1-secondpage{
+    size: 80px;
+    text-shadow: #0e0000;
+}
+.margin-secondpage{
+    margin-top: 80px;
+}
+.font-weight{
+    font-weight: bolder;
+}
+.family{
+    font-family: 'Montserrat',sans-serif;
+}
+.font-size-heading{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+@media (min-width:320px){
+   .font-size{
+    font-size: 9px;
+   }
+}
+@media (min-width:768px){
+   .font-size{
+    font-size: 11px;
+   }
+}
+@media (min-width:768px){
+   .font-size{
+    font-size-heading: 4px;
+   }
+}
+
+@media (min-width:992px){
+   .font-size{
+    font-size: 15px;
+   }
+}
+@media (min-width:992px){
+   .font-size{
+    font-size-heading: 2px;
+   }
+}
+
+/* Third section work */
+
+.font-size-third{
+    font-size: 40px;
+}
+@media (min-width:768px){
+   .font-size-third{
+    font-size: 36px;
+   }
+}
+.shape{
+    margin-top: 15px;
+    height: 0.5px;
+    width: 300px;
+}
+@media (min-width:768px){
+   .shape{
+    width: 700px;
+   }
+}
+@media (min-width:992px){
+   .shape{
+    width: 950px;
+   }
+}
+/* Fourth Section starts*/
+.margin-fourth{
+    margin-top: 25px;
+}
+@media (min-width:768px){
+   .size-fourth{
+    font-size: 5px;
+   }
+}
+@media (min-width:992px){
+   .size-fourth{
+    font-size: 4px;
+   }
+}
+/* Fourth section end */
+/* Footer work starts */
+.footer-margin{
+   padding-bottom: 15px; 
+}
+/* Third page work */
+/* First section starts */
+.bg-thirdpage{
+    background-image: url(/Assests/HOME/working-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-in-thirdpage{
+    background-color: rgba(8, 2, 19, 0.566)
+}
+.h-75dvh-thirdpage{
+    height: 75dvh;
+}
+/* First section ends */
+/* Second section starts */
+@media (min-width:768px){
+   .second-section-size{
+    font-size: 12px;
+   }
+}
+/* second section ends */
+/* Third section starts */
+.third-margin{
+    padding-top: 125px;
+}
+.shape-third{
+    margin-top: 15px;
+    height: 0.5px;
+    width: 200px;
+}
+@media (min-width:320px){
+   .shape-third{
+    width: 250px;
+   }
+}
+@media (min-width:768px){
+   .shape-third{
+    width: 300px;
+   }
+}
+@media (min-width:992px){
+   .shape-third {
+    width: 420px;
+   }
+}
+@media (min-width:768px){
+   .third-section-size{
+    font-size: 13px;
+   }
+}
+/* Fourth page work */
+/* First section and Navbar */
+.bg-fourthpage{
+    background-image: url(/Assests/HOME/crane-handle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-in-fourthpage{
+    background-color: rgba(8, 2, 19, 0.566)
+}
+.h-75dvh-fourthpage{
+    height: 75dvh;
+}
+/* First section end */
+/* Second section starts */
+@media (max-width:320px){
+   .font-size-fourth {
+font-size: 9px;
+   }
+}
+/* Second section ends */
+/* Fourth page work ends */
+/* Fifth page work starts */
+/* First section and navbar */
+.bg-fifthpage{
+    background-image: url(/Assests/HOME/bg-09-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-in-fifthpage{
+    background-color: rgba(8, 2, 19, 0.566)
+}
+.h-75dvh-fifthhpage{
+    height: 75dvh;
+}
+/* First section ends */
+/* Second section starts */
+.font-size-fourth{
+    font-size: 15px;
+}
